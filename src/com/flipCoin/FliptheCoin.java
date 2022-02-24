@@ -21,7 +21,6 @@ public class FliptheCoin {
 				Tailcount++;
 			} else {
 				Headcount++;
-				
 			}
 		}
 
