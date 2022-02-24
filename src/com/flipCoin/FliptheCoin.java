@@ -29,10 +29,10 @@ public class FliptheCoin {
 
 		String TailPercentage = decimalFormat.format(((double) Tailcount / count) * 100);
 		String HeadPercentage = decimalFormat.format(((double) Headcount / count) * 100);
-		 
+
 		System.out.println("The tail percentage is : " + TailPercentage + " %");
-		System.out.println("The Head percentage is : " + HeadPercentage +" %");
-		
+		System.out.println("The Head percentage is : " + HeadPercentage + " %");
+
 		sc.close();
 	}
 }
